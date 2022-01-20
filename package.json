@@ -9,7 +9,7 @@
     "yarn": "1.22.17"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "NODE_ENV=development node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
